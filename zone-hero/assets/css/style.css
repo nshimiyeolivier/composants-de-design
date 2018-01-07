@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  font-family: 'Bellefair', serif;
+  font-size: 100%; }
+
+img {
+  width: 55%;
+  margin-left: 45%; }
+
+.top-left {
+  margin-left: 15%;
+  margin-top: -43%; }
+
+h4 {
+  font-size: 180%; }
+
+.map {
+  background-color: #E7BB4F;
+  padding: 15px; }
+  .map a {
+    text-decoration: none;
+    color: black; }
+
+/*# sourceMappingURL=style.css.map */
