@@ -1,0 +1,128 @@
+.container {
+  width: 80%;
+  margin-left: 250px;
+  font-family: sans-serif; }
+
+input[type=text] {
+  border: 1px solid #AEAEAE;
+  border-top-width: 2px;
+  border-radius: 0px; }
+
+#dob {
+  padding-left: 25px;
+  font-size: 13px;
+  font-weight: bold; }
+
+#gender {
+  width: 400px; }
+
+#date {
+  width: 17px;
+  margin-left: 25px; }
+
+#month {
+  width: 17px; }
+
+#year {
+  width: 35px; }
+
+#calendar {
+  margin-top: -10px;
+  font-size: 10px; }
+
+#mm {
+  padding-left: 23px; }
+
+#dd {
+  padding-left: 15px; }
+
+#yyyy {
+  padding-left: 19px; }
+
+.relationship {
+  padding-left: 118px;
+  font-size: 13px;
+  font-weight: bold; }
+
+.infos {
+  font-size: 13px;
+  font-weight: bold; }
+
+.spr {
+  padding-left: 35px;
+  font-size: 12px; }
+
+#country {
+  width: 370px; }
+
+#homephone {
+  margin-left: -3px;
+  font-size: 10px; }
+
+#workphone {
+  margin-left: 295px;
+  font-size: 10px; }
+
+.p1, .p2 {
+  width: 25px; }
+
+.p3 {
+  width: 35px; }
+
+.w1, .w2 {
+  width: 25px; }
+
+.w3 {
+  width: 35px; }
+
+.w1 {
+  margin-left: 300px; }
+
+#p6 {
+  padding-left: 18px; }
+
+#p7 {
+  padding-left: 18px; }
+
+#wp {
+  padding-left: 300px;
+  font-size: 13px;
+  font-weight: bold; }
+
+#w6 {
+  padding-left: 20px; }
+
+#w7 {
+  padding-left: 18px; }
+
+.PolicyNumber {
+  padding-left: 18px;
+  margin-left: 18px;
+  font-size: 13px;
+  font-weight: bold; }
+
+#phone1 {
+  margin-left: 20px;
+  width: 30px; }
+
+#phone2 {
+  width: 30px; }
+
+#phone3 {
+  width: 40px; }
+
+#parts {
+  font-size: 11px;
+  padding-left: 19px;
+  margin-top: -5px; }
+
+#part2 {
+  padding-left: 20px; }
+
+#part3 {
+  padding-left: 20px; }
+
+.desc {
+  font-size: 12px; }
+
+/*# sourceMappingURL=style.css.map */

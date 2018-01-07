@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form-medical-onformations</title>
+        <meta charset="utf-8" />
+        <!-- call css -->
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <!-- call font awesome -->
+        <script src="https://use.fontawesome.com/06b4ca2aca.js"></script>
+        <link href="https://use.fontawesome.com/06b4ca2aca.css" media="all" rel="stylesheet">
+
+    </head>
+    <body>
+
+<div class="container">
+  <h2> Emergency Contact and Medical Information</h2>
+  <form action="medicalinfos.php" method="post">
+   <table>
+     <tr>
+       <td class="infos" colspan ="2"> Name </td>
+     </tr>
+     <tr>
+        <td> <input type="text" name="First" size="7" value=""> </td>
+        <td> <input type="text" name="Last" size="15" value=""> </td>
+     </tr>
+     <tr>
+       <td class="desc"> First </td>
+       <td class="desc"> Last </td>
+     </tr>
+   </table>
+
+   <br />
+
+   <table>
+     <tr>
+       <td class="infos"> Gender </td>
+       <td id="dob"> Date of birth </td>
+     </tr>
+     <tr>
+      <td>
+        <select name="Male" id="gender" >
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </td>
+      <td>
+       <input type="text" name="First" value="" id="date">
+       /
+       <input type="text" name="First" size="2" value="" id="month">
+       /
+       <input type="text" name="First" size="4" value="" id="year">
+       <i class="fa fa-calendar" aria-hidden="true"></i>
+     </td>
+     </tr>
+     <tr>
+       <td> </td>
+       <td>
+         <table id="calendar" >
+           <tr >
+             <td id="mm"> MM </td>
+             <td id="dd"> DD </td>
+             <td id="yyyy"> YYYY </td>
+           </tr>
+         </table>
+      </td>
+     </tr>
+   </table>
+
+   <br />
+
+   <h4> Emergency Contact </h4>
+<form action="medicalinfos.php" method="post">
+<table>
+  <tr>
+    <td class="infos" colspan="2"> Name </td>
+    <td class="relationship"> Relationship </td>
+  </tr>
+  <tr>
+     <td> <input type="text" name="First" size="7" value=""> </td>
+     <td> <input type="text" name="Last" size="15" value=""> </td>
+     <td class="relationship"> <input type="text" name="Last" size="32" value=""> </td>
+  </tr>
+  <tr>
+    <td class="desc"> First </td>
+    <td class="desc"> Last </td>
+  </tr>
+</table>
+
+<br />
+
+<table>
+<tr>
+ <td class="infos" colspan="2"> Adress </td>
+</tr>
+<tr>
+  <td colspan="2"> <input type="text" name="First" size="80" value=""> </td>
+</tr>
+<tr>
+ <td class="desc" colspan="2"> Street Adress </td>
+</tr>
+<tr>
+  <td colspan="2"> <input type="text" name="First" size="80" value=""> </td>
+</tr>
+<tr>
+ <td class="desc" colspan="2"> Adress line 2 </td>
+</tr>
+<tr>
+  <td > <input type="text" name="First" size="35" value=""> </td>
+  <td class="spr"> <input type="text" name="First" size="35" value=""> </td>
+</tr>
+<tr>
+ <td class="desc"> City </td>
+ <td class="spr"> State / Province / Region </td>
+</tr>
+
+<tr>
+  <td > <input type="text" name="First" size="35" value=""> </td>
+  <td class="spr">
+    <select name="country" id="country" >
+      <option value="Europa"> </option>
+      <option value="Afrika"> </option>
+    </select>
+  </td>
+</tr>
+<tr>
+ <td class="desc"> Postal / Zip code </td>
+ <td class="spr"> Country </td>
+</tr>
+</table>
+
+<br />
+
+<table>
+  <tr>
+    <td class="infos"> Home Phone </td>
+    <td id="wp"> Work Phone</td>
+  </tr>
+  <tr>
+   <td>
+     <input type="text" name="###"  value="" class="p1">
+     -
+     <input type="text" name="###"  value="" class="p2">
+     -
+     <input type="text" name="####"  value="" class="p3">
+   </td>
+
+   <td>
+    <input type="text" name="###"  value="" class="w1">
+    -
+    <input type="text" name="###"  value="" class="w2">
+    -
+    <input type="text" name="####" value="" class="w3">
+
+  </td>
+  </tr>
+  <tr>
+    <td>
+      <table id="homephone" >
+        <tr >
+          <td id="p5"> ### </td>
+          <td id="p6"> ### </td>
+          <td id="p7"> #### </td>
+        </tr>
+      </table>
+    </td>
+    <td>
+      <table id="workphone" >
+        <tr >
+          <td id="w5"> ### </td>
+          <td id="w6"> ### </td>
+          <td id="w7"> #### </td>
+        </tr>
+      </table>
+   </td>
+  </tr>
+</table>
+
+<h4 class="infos"> Medical Informations </h4>
+<table>
+  <tr>
+    <td class="infos" colspan="2"> Hospital / Clinic Preference </td>
+  </tr>
+  <tr>
+    <td colspan="2"> <input type="text" name="h/clinicp" value="" size="80"> </td>
+  </tr>
+
+</table>
+
+<br>
+
+<table>
+  <tr>
+    <td class="infos"> Insurance Company </td>
+    <td class="PolicyNumber"> Policy Number </td>
+
+  </tr>
+  <tr>
+    <td> <input type="text" name="InsuranceCompany" value="" size="36"> </td>
+    <td> <input type="text" name="PolicyNumber" value="" size="34" class="PolicyNumber"> </td>
+  </tr>
+</table>
+
+<br />
+
+<table>
+  <tr>
+    <td class="infos"> Physician's Name </td>
+    <td class="PolicyNumber"> Phone Number </td>
+
+  </tr>
+  <tr>
+    <td> <input type="text" name="Physiciansname" value="" size="36"> </td>
+    <td>
+      <input type="text" name="###"  value="" id="phone1">
+      -
+      <input type="text" name="###"  value="" id="phone2">
+      -
+      <input type="text" name="####" value="" id="phone3">
+    </td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td>
+      <table id="parts">
+        <tr>
+          <td id="part1">### </td>
+          <td id="part2"> ###</td>
+          <td id="part3"> ####</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<table>
+  <tr>
+    <td class="infos" colspan="2"> Allergies / Special Health Considerations </td>
+  </tr>
+  <tr>
+    <td colspan="2"> <textarea rows="10" cols="110" name="comment" form="usrform">
+</textarea> </td>
+  </tr>
+</table>
+
+<br />
+ <input type="submit" value="Submit">
+
+ </form>
+</div>
+
+    </body>
+</html>
