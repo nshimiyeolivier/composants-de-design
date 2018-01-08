@@ -1,0 +1,32 @@
+.container {
+  width: 90%;
+  margin: auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+  justify-content: space-around; }
+  .container div:nth-child(1) p {
+    color: #5D5D5D;
+    font-size: 100%; }
+  .container div:nth-child(1) h3 {
+    margin-top: 20%;
+    font-size: 120%; }
+  .container div:nth-child(2) img {
+    position: relative;
+    width: 100%; }
+
+.emailpro a {
+  text-decoration: none;
+  position: relative;
+  margin-top: 4%;
+  background-color: #088186;
+  padding: 3%;
+  border-radius: 5px;
+  font-size: 70%;
+  color: white;
+  min-width: 200px;
+  z-index: 1; }
+
+/*# sourceMappingURL=style.css.map */
